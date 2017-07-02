@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>faRenHEit iS wEirD</h2>
+
+<p>Look at this awesome thingo that converts Farenheit to Celcius!</p>
+
+
+<textarea id="input"></textarea>
+<button id="button" type="button" 
+onclick='toCelsius(
+document.getElementById("input").value)'>click here</button>
+<p id="answer"></p> 
+
+
+<script>
+
+
+function toCelsius(f) {
+    var answer =  (5/9) * (f-32);
+    document.getElementById("answer").innerHTML = answer;
+}
+
+</script>
+
+</body>
+</html>
